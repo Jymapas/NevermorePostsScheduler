@@ -2,8 +2,8 @@
 
 internal class PostDraft
 {
-    private long AdminId { get; set; }
-    private int MessageId { get; set; }
-    private string ChannelName { get; set; }
-    private DateTime ScheduledTime { get; set; }
+    internal long AdminId { get; set; }
+    internal int MessageId { get; set; }
+    internal string ChannelName { get; set; }
+    internal DateTime ScheduledTime { get; set; }
 }
